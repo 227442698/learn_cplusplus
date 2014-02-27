@@ -3,6 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7", "7\7.vcxproj", "{1E17FC13-A358-4F2B-9906-E407945384B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E47212DD-CA58-49C3-91AB-295518777377}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7.10", "7.10\7.10.vcxproj", "{B1DA956B-4162-4726-A67F-AE09C69EC612}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +20,10 @@ Global
 		{1E17FC13-A358-4F2B-9906-E407945384B9}.Debug|Win32.Build.0 = Debug|Win32
 		{1E17FC13-A358-4F2B-9906-E407945384B9}.Release|Win32.ActiveCfg = Release|Win32
 		{1E17FC13-A358-4F2B-9906-E407945384B9}.Release|Win32.Build.0 = Release|Win32
+		{B1DA956B-4162-4726-A67F-AE09C69EC612}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B1DA956B-4162-4726-A67F-AE09C69EC612}.Debug|Win32.Build.0 = Debug|Win32
+		{B1DA956B-4162-4726-A67F-AE09C69EC612}.Release|Win32.ActiveCfg = Release|Win32
+		{B1DA956B-4162-4726-A67F-AE09C69EC612}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
